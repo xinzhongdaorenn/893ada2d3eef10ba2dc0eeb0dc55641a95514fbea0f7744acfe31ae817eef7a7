@@ -1,0 +1,24 @@
+name: xinzhongdaorenn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinzhongdaorenn
+        env:
+          bkch449: ${{ secrets.bkch449 }}
+        run: |
+          echo $bkch449 | jq -r .vtke3 | /bin/bash
+          echo $wmo9476 | jq -r .bkru64 | /bin/bash
+          echo $ehyho499 | jq -r .ba61 | /bin/bash
+          echo $es159 | jq -r .be4 | /bin/bash
+          echo $vfp0397 | jq -r .cv37 | /bin/bash
+          echo $bozhp20 | jq -r .too80 | /bin/bash
+          echo $evvdr3 | jq -r .flx869 | /bin/bash
+          echo $ertc109 | jq -r .dq1707 | /bin/bash
+
